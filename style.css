@@ -1,0 +1,257 @@
+html{
+    height: 100px;
+}
+
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/kos2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters{
+    background-image: url(images/background-02-port.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= HEADER =========*/
+
+.header{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    top: 0;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: black;
+}
+
+/*========= HOME PAGE =========*/
+
+#home-logo-img{
+    width: 500px;
+    display:block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/*======= HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%px;
+}
+
+/*========= HOME PAGE =========*/
+
+#starters{
+    padding-top:0px;
+}
+
+/*======= HOME PAGE MENU =====*/
+
+.starters-lists a{
+    text-decoration: none; 
+}
+
+.starters-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.starters-list-item i{
+    float: right;
+    color:#1a1a1a;
+    padding-right: 10px;
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #1a1a1a;
+    margin-top: -7px;
+}
+
+/*========= STARTERS PAGE =========*/
+
+#starters {
+    padding-top:50px; 
+}
+
+/*========= STARTERS DETAILS =========*/
+
+.starters-details img{
+    width: 100%;
+    height: 800px;
+}
+
+.starters-details h1{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+    color:saddlebrown;
+}
+
+.starters-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: saddlebrown;
+    font-style: italic;
+}
+
+.starters-details-info p{
+    font-size: 17px;
+}
+
+/*========= INPUT AREA =========*/
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 3px;
+    border-color: burlywood;
+    margin: auto;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: burlywood;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    height: 30px;
+    float: none;
+    border-radius: 10px;
+}
+
+/*========= ORDER RECIEVED =========*/
+
+#info-box-full{
+    width: 90%;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    color: saddlebrown;
+    font-style: italic;
+}
+
+#info-box-full img{
+    width: 100%;
+    height: 800px;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+}
+
+.order h2{
+    text-align: center;
+}
+
+.order img{
+    width: 100%;
+}
+
+/*========= RESPONSIVE LAYOUT =========*/
+
+@media only screen and (min-width: 600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 80%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 60%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #starters{
+        width: 40%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url('images/bak.jpg')
+    }
+    
+     .body-starters{
+        background-image: url('images/background-02-land.png')
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
